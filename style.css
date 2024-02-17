@@ -75,6 +75,8 @@ img{
 	width: 90%;
 	line-height: 1.5;
 	margin-left: 15px;
+	outline: none;
+
 }
 
 
@@ -105,11 +107,13 @@ header{
 .mainImgContainer{
 	border-radius: 15px;
 	overflow: hidden;
-	height: fit-content;
-	width: fit-content;
+	/* height: fit-content;
+	width: fit-content; */
 	margin-bottom: 15px;
 	position: relative;
 	border: none;
+	display: flex;
+	
 }
 
 .mainImgContainer img{
@@ -132,16 +136,16 @@ header{
 .none{
 	display: block;
 }
-.black{
-	background-color: rgba(0, 0, 0, 0.397);
-	position: absolute;
-	top:0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	z-index: 1;
+	.black{
+		background-color: rgba(0, 0, 0, 0.397);
+		position: absolute;
+		top:0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 1;
 
-}
+	}
 
 .save{
 	position: absolute;

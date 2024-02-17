@@ -52,9 +52,14 @@ function accumulateImages(resultImages){
     });
 
     printImages(accuImgList);
-
+    clearInputBox();
 }
 
 function printImages(accuImgList){
     mainImages.innerHTML = accuImgList;
+}
+
+function clearInputBox(){
+    inputBox.value="";
+
 }
